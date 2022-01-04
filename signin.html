@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Portal</title>
+</head>
+<body>
+    <section>
+        <div class="imgbx">
+            <img src="sun.jpg">
+        </div>
+        <div class="contentbx">
+            <div class="formbx">
+                <h2>Login</h2>
+                <form>
+                    <div class="inputbx">
+                    <span>Email</span>
+                    <input type="email" name="">
+                    </div>
+                    <div class="inputbx">
+                        <span>Password</span>
+                        <input type="text" name="">
+                     </div>
+                     <div class="inputbx">
+                        <span>Confirm Password</span>
+                        <input type="password" name="">
+                     </div>
+                     <div class="remember">
+                         <label><input type="checkbox" name=""> Remember me</label>
+                     </div>
+                     <div class="inputbx">
+                        <input  onclick ="popUp()" type="submit" value="Sign in" name="">
+                    </div>
+                    <div class="inputbx">
+                        <a class="posco" href="/Fogot.html"><input type="button" value="Forgot Password" name=""> </a>
+                        <!-- <input type="button" value="Forgot Password" name="">  -->
+                    </div>
+                    <div class="inputbx">
+                        <p>Don't have an account?</p> <a href="#">Sign Up</a>                   
+                    </div>
+
+                </form>
+                <h3>Login with Social Media</h3>
+                <ul class="sci">
+                    <li><img src="git.png"></li>
+                    <li><img src="ld.png"></li>
+                    <li><img src="insta.jfif"></li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+    <button onclick="myFunction()">Toggle</button>
+    <script>
+        function popUp(){
+    alert("you have logged in")
+}
+
+
+
+
+
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+    
+   
+    
+</body>
+</html>

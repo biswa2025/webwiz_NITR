@@ -1,0 +1,70 @@
+.box{
+   
+    /* background-color: whitesmoke; */
+    padding: 10px;
+    margin: 10px;
+   
+
+}
+.name{
+    width: 10vw;
+    height: 3vh;
+    
+}
+body{
+    background: url(num.jpg) no-repeat center center fixed;
+    background-size: cover;
+  
+}
+h1{
+    color: white;
+    text-align: center;
+    top: 20%;
+}
+.container{ 
+    /* color: white; */
+    position: absolute;
+    top: 25%;
+    left: 35%; 
+    border: 5px solid purple;
+    width: 30vw;
+    height: 50vh;
+    background:url(bg.jpg) no-repeat center center fixed ;
+    background-size: cover;
+  
+    
+    
+}
+.box input{
+
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    outline:none;
+    /* color: white; */
+    border-radius: 10px;
+    
+
+}
+.box1{
+  margin-left: 180px;
+
+}
+.box1 sub{
+   font-size: larger;
+}
+.box2 a{
+    text-decoration: none;
+    margin-left: 148px;
+    margin-top: 50px;
+    padding: 5px;
+    color: brown;
+    font-size: larger;
+}
+
+.sub:hover{
+    opacity: 0.5;
+    color: rgb(85, 128, 0); 
+    background: white; 
+    
+}
